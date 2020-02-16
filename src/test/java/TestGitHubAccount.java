@@ -41,4 +41,23 @@ public class TestGitHubAccount {
         assertEquals(AccountType.FREE, gitHubAccount.getAccountType());
     }
 
+    @Test
+    public void testIfRepositoriesStartsAtZero() {
+        assertEquals(0, gitHubAccount.repositoriesCount());
+    }
+
+    @Test
+    public void testCanAddRepositories() {
+        gitHubAccount.addRepository(repository1);
+        assertEquals(1, gitHubAccount.repositoriesCount());
+    }
+
+    @Test
+    public void testCanSearchForRepositoriesByName() {
+        gitHubAccount.addRepository(repository1);
+        assertEquals(repository1, gitHubAccount.findRepository(repository1.getName()));
+    }
+
+
+
 }
