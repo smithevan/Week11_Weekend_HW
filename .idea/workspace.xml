@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1a5dc6cc-31bf-4cbc-981c-2a95c46afc0b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GitHubAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GitHubAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestGitHubAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestGitHubAccount.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -49,22 +51,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRepository.testCanGetCommitByUniqueIdIfIdCorrect">
-    <configuration name="TestRepository.testCanAddCommitToRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestGitHubAccount.testifGitHubAccountHasType">
+    <configuration name="TestGitHubAccount.testIfGitHubAccountHasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="weekend_hw" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRepository" />
-      <option name="METHOD_NAME" value="testCanAddCommitToRepository" />
+      <option name="MAIN_CLASS_NAME" value="TestGitHubAccount" />
+      <option name="METHOD_NAME" value="testIfGitHubAccountHasName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRepository.testCanGetCommitByUniqueId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGitHubAccount.testIfGitHubAccountHasUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="weekend_hw" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRepository" />
-      <option name="METHOD_NAME" value="testCanGetCommitByUniqueId" />
+      <option name="MAIN_CLASS_NAME" value="TestGitHubAccount" />
+      <option name="METHOD_NAME" value="testIfGitHubAccountHasUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGitHubAccount.testifGitHubAccountHasType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weekend_hw" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestGitHubAccount" />
+      <option name="METHOD_NAME" value="testifGitHubAccountHasType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,16 +87,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestRepository" />
       <option name="METHOD_NAME" value="testCanGetCommitByUniqueIdIfIdCorrect" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRepository.testCanReturnCommit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="weekend_hw" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRepository" />
-      <option name="METHOD_NAME" value="testCanReturnCommit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestGitHubAccount.testifGitHubAccountHasType" />
+        <item itemvalue="JUnit.TestGitHubAccount.testIfGitHubAccountHasName" />
+        <item itemvalue="JUnit.TestGitHubAccount.testIfGitHubAccountHasUsername" />
         <item itemvalue="JUnit.TestRepository.testCanGetCommitByUniqueIdIfIdCorrect" />
         <item itemvalue="JUnit.TestRepository.testWillNotReturnAnyCommitIfUniqueIdIncorrect" />
-        <item itemvalue="JUnit.TestRepository.testCanGetCommitByUniqueId" />
-        <item itemvalue="JUnit.TestRepository.testCanReturnCommit" />
-        <item itemvalue="JUnit.TestRepository.testCanAddCommitToRepository" />
       </list>
     </recent_temporary>
   </component>
