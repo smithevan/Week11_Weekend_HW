@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a5dc6cc-31bf-4cbc-981c-2a95c46afc0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Commit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Commit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCommit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCommit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Commit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Commit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCommit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCommit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRepository.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,52 +51,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRepository.testRepositoryStartsEmpty">
-    <configuration name="TestCommit.canGetUniqueId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestRepository.testCanGetCommitByUniqueIdIfIdCorrect">
+    <configuration name="TestRepository.testCanAddCommitToRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="weekend_hw" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCommit" />
-      <option name="METHOD_NAME" value="canGetUniqueId" />
+      <option name="MAIN_CLASS_NAME" value="TestRepository" />
+      <option name="METHOD_NAME" value="testCanAddCommitToRepository" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRepository.testRepositoryHasDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRepository.testCanGetCommitByUniqueId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="weekend_hw" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestRepository" />
-      <option name="METHOD_NAME" value="testRepositoryHasDescription" />
+      <option name="METHOD_NAME" value="testCanGetCommitByUniqueId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRepository.testRepositoryHasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRepository.testCanGetCommitByUniqueIdIfIdCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="weekend_hw" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestRepository" />
-      <option name="METHOD_NAME" value="testRepositoryHasName" />
+      <option name="METHOD_NAME" value="testCanGetCommitByUniqueIdIfIdCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRepository.testRepositoryHasType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRepository.testCanReturnCommit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="weekend_hw" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestRepository" />
-      <option name="METHOD_NAME" value="testRepositoryHasType" />
+      <option name="METHOD_NAME" value="testCanReturnCommit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRepository.testRepositoryStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRepository.testWillNotReturnAnyCommitIfUniqueIdIncorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="weekend_hw" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestRepository" />
-      <option name="METHOD_NAME" value="testRepositoryStartsEmpty" />
+      <option name="METHOD_NAME" value="testWillNotReturnAnyCommitIfUniqueIdIncorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestRepository.testRepositoryStartsEmpty" />
-        <item itemvalue="JUnit.TestRepository.testRepositoryHasType" />
-        <item itemvalue="JUnit.TestRepository.testRepositoryHasDescription" />
-        <item itemvalue="JUnit.TestRepository.testRepositoryHasName" />
-        <item itemvalue="JUnit.TestCommit.canGetUniqueId" />
+        <item itemvalue="JUnit.TestRepository.testCanGetCommitByUniqueIdIfIdCorrect" />
+        <item itemvalue="JUnit.TestRepository.testWillNotReturnAnyCommitIfUniqueIdIncorrect" />
+        <item itemvalue="JUnit.TestRepository.testCanGetCommitByUniqueId" />
+        <item itemvalue="JUnit.TestRepository.testCanReturnCommit" />
+        <item itemvalue="JUnit.TestRepository.testCanAddCommitToRepository" />
       </list>
     </recent_temporary>
   </component>

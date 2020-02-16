@@ -31,4 +31,24 @@ public class Repository {
     public int commitCount() {
         return this.commits.size();
     }
+
+    public void addCommit(Commit commit) {
+        this.commits.add(commit);
+    }
+
+    public Commit getCommit() {
+        Commit commit = commits.get(0);
+        return commit;
+    }
+
+    public Commit findCommitById(String uniqueId) {
+        for (int i = 0; i < commits.size(); i++) {
+            if (commits.get(i).getUniqueId() == uniqueId)
+                return commits.get(i);
+        }
+        return null;
+
+    }
 }
+
+
