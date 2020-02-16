@@ -29,5 +29,10 @@ public class TestRepository {
         assertEquals(RepositoryType.PUBLIC, repository.getRepositoryType());
     }
 
+    @Test
+    public void testRepositoryStartsEmpty(){
+        assertEquals(0, repository.commitCount());
+    }
+
 
 }

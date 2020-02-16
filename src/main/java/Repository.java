@@ -27,4 +27,8 @@ public class Repository {
     public RepositoryType getRepositoryType() {
         return repositoryType;
     }
+
+    public int commitCount() {
+        return this.commits.size();
+    }
 }

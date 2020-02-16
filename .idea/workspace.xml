@@ -54,17 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRepository.testRepositoryHasType">
-    <configuration name="TestCommit.canGetDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="weekend_hw" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCommit" />
-      <option name="METHOD_NAME" value="canGetDescription" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestRepository.testRepositoryStartsEmpty">
     <configuration name="TestCommit.canGetUniqueId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="weekend_hw" />
       <option name="PACKAGE_NAME" value="" />
@@ -105,13 +95,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRepository.testRepositoryStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weekend_hw" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRepository" />
+      <option name="METHOD_NAME" value="testRepositoryStartsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRepository.testRepositoryStartsEmpty" />
         <item itemvalue="JUnit.TestRepository.testRepositoryHasType" />
         <item itemvalue="JUnit.TestRepository.testRepositoryHasDescription" />
         <item itemvalue="JUnit.TestRepository.testRepositoryHasName" />
         <item itemvalue="JUnit.TestCommit.canGetUniqueId" />
-        <item itemvalue="JUnit.TestCommit.canGetDescription" />
       </list>
     </recent_temporary>
   </component>
