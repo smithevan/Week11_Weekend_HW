@@ -9,10 +9,21 @@ public class TestGitHubAccount {
 
 
     private GitHubAccount gitHubAccount;
+    private Repository repository1;
+    private Commit commit1;
+    private Commit commit2;
+    private Commit commit3;
 
     @Before
     public void setup() {
         gitHubAccount = new GitHubAccount("FakeUser", "John Doe", AccountType.FREE);
+        repository1 = new Repository("JavaProject", "Card Game", RepositoryType.PUBLIC);
+        commit1 = new Commit("Initial State", "JE334VC");
+        commit2 = new Commit("Getters Working with TDD", "CWE2289");
+        commit3 = new Commit("Adding ENUMS", "CE323UI");
+        repository1.addCommit(commit1);
+        repository1.addCommit(commit2);
+        repository1.addCommit(commit3);
     }
 
     @Test
@@ -26,7 +37,7 @@ public class TestGitHubAccount {
     }
 
     @Test
-    public void testifGitHubAccountHasType() {
+    public void testIfGitHubAccountHasType() {
         assertEquals(AccountType.FREE, gitHubAccount.getAccountType());
     }
 

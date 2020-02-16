@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1a5dc6cc-31bf-4cbc-981c-2a95c46afc0b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GitHubAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GitHubAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestGitHubAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestGitHubAccount.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
