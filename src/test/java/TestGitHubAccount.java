@@ -58,6 +58,12 @@ public class TestGitHubAccount {
         assertEquals(repository1, gitHubAccount.findRepository(repository1.getName()));
     }
 
+    @Test
+    public void testAccountTypeStartsFree(){
+        gitHubAccount.upgradeAccount();
+        assertEquals(AccountType.PRO, gitHubAccount.getAccountType());
+    }
+
 
 
 }

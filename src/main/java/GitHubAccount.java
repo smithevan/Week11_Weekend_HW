@@ -46,4 +46,8 @@ public class GitHubAccount {
         }
         return null;
     }
+
+    public void upgradeAccount() {
+        this.accountType = AccountType.PRO;
+    }
 }
