@@ -12,4 +12,8 @@ public class Commit {
         return description;
     }
 
+    public String getUniqueId() {
+        return uniqueId;
+    }
+
 }
