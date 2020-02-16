@@ -50,4 +50,18 @@ public class GitHubAccount {
     public void upgradeAccount() {
         this.accountType = AccountType.PRO;
     }
+
+    public Repository findLargestCommits() {
+        int largestCommitCount = 0;
+        for(int i = 0; i < repositories.size(); i++){
+            for (int commits = 0; commits < repositories.get(i).commitCount(); commits++) {
+                largestCommitCount += 1;
+            }
+            if (repositories.get(i).commitCount() == largestCommitCount)
+                return repositories.get(i);
+        }
+        return null;
+    }
+
+
 }

@@ -8,6 +8,10 @@ public class TestRepository {
     private Repository repository;
     private Repository repository2;
     private Commit commit1;
+    private Commit commit2;
+    private Commit commit3;
+    private Commit commit4;
+
 
     @Before
     public void before() {
@@ -18,6 +22,10 @@ public class TestRepository {
                 "Inventory System",
                 RepositoryType.PRIVATE);
         commit1 = new Commit ("First Part of MVP working", "553JJHB");
+        commit2 = new Commit("Getters Working with TDD", "CWE2289");
+        commit3 = new Commit("Adding ENUMS", "CE323UI");
+        commit4 = new Commit("Testing How HashMapsWork", "REW343U");
+
     }
 
     @Test
@@ -70,6 +78,23 @@ public class TestRepository {
         repository.addCommit(commit1);
         assertEquals(null, repository.findCommitById("34377J"));
     }
+
+//    @Test
+//    public void testCanRollBackRepository(){
+//        repository.addCommit(commit1);
+//        repository.addCommit(commit2);
+//        repository.addCommit(commit3);
+//        repository.addCommit(commit4);
+//        repository.revert(commit2.getUniqueId());
+//        assertEquals(repository );
+//    }
+
+
+//
+//    Arrange: [commit1, commit2, commit3]
+//    Act: repo.revert(commit2uniqueId)
+//    Assert: Expected = [commit1, commit2]
+
 
 
 }

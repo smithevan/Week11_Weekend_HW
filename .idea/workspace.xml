@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a5dc6cc-31bf-4cbc-981c-2a95c46afc0b" name="Default Changelist" comment="" />
+    <list default="true" id="1a5dc6cc-31bf-4cbc-981c-2a95c46afc0b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GitHubAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GitHubAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestGitHubAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestGitHubAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GitHubAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GitHubAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestGitHubAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestGitHubAccount.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestGitHubAccount.testAccountTypeStartsFree">
+  <component name="RunManager" selected="JUnit.TestGitHubAccount.testCanGetRepositoryWithLargestNumberOfCommits">
     <configuration name="TestGitHubAccount.testAccountTypeStartsFree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="weekend_hw" />
       <option name="PACKAGE_NAME" value="" />
@@ -68,6 +75,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestGitHubAccount.testCanGetRepositoryWithLargestNumberOfCommits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weekend_hw" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestGitHubAccount" />
+      <option name="METHOD_NAME" value="testCanGetRepositoryWithLargestNumberOfCommits" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestGitHubAccount.testCanSearchForRepositoriesByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="weekend_hw" />
       <option name="PACKAGE_NAME" value="" />
@@ -78,21 +95,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGitHubAccount.testIfCanAddRepositories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGitHubAccount.testCommitCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="weekend_hw" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestGitHubAccount" />
-      <option name="METHOD_NAME" value="testIfCanAddRepositories" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestGitHubAccount.testIfRepositoriesStartsAtZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="weekend_hw" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestGitHubAccount" />
-      <option name="METHOD_NAME" value="testIfRepositoriesStartsAtZero" />
+      <option name="METHOD_NAME" value="testCommitCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestGitHubAccount.testAccountTypeStartsFree" />
+        <item itemvalue="JUnit.TestGitHubAccount.testCanGetRepositoryWithLargestNumberOfCommits" />
+        <item itemvalue="JUnit.TestGitHubAccount.testCommitCount" />
         <item itemvalue="JUnit.TestGitHubAccount.testCanSearchForRepositoriesByName" />
+        <item itemvalue="JUnit.TestGitHubAccount.testAccountTypeStartsFree" />
         <item itemvalue="JUnit.TestGitHubAccount.testCanAddRepositories" />
-        <item itemvalue="JUnit.TestGitHubAccount.testIfCanAddRepositories" />
-        <item itemvalue="JUnit.TestGitHubAccount.testIfRepositoriesStartsAtZero" />
       </list>
     </recent_temporary>
   </component>
